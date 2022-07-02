@@ -8,7 +8,7 @@ int main(void)
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-printf("%c", ch);
+printf("%c\n", ch);
 }
 return (0);
 }
