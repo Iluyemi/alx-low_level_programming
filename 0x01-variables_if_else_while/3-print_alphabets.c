@@ -15,5 +15,6 @@ for (CH = 'A'; CH <= 'Z'; CH++)
 {
 putchar(CH);
 }
+printf("\n");
 return (0);
 }
