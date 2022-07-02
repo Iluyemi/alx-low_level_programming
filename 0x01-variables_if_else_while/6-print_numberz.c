@@ -10,6 +10,6 @@ for (i = 0; i <= 9; i++)
 {
 putchar(i);
 }
-printf("\n");
+putchar("\n");
 return (0);
 }
