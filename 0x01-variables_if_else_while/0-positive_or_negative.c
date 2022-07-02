@@ -21,7 +21,7 @@ printf("%i is positive\n", n);
 }
 else
 {
-printf("%i is Zero\n", n);
+printf("%i is zero\n", n);
 }
 return (0);
 }
