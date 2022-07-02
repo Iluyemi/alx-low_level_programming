@@ -8,14 +8,15 @@ int main(void)
 char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-if(ch = 'q' | ch = 'e')
+if(ch == 'q' && ch == 'e')
 {
-printf("\0");
+printf();
 }
 else
 {
 putchar(ch);
 }
 }
+printf("\n");
 return (0);
 }
