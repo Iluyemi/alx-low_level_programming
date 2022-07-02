@@ -9,7 +9,7 @@ char CH;
 int i;
 for (i = 0; i <= 9; i++)
 {
-putchar((i%10) + "0");
+putchar((i % 10) + '0');
 }
 for (CH = 'a'; CH <= 'f'; CH++)
 {
