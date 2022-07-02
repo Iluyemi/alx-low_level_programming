@@ -13,6 +13,6 @@ if(ch != 'q' && ch != 'e')
 putchar(ch);
 }
 }
-putcharc('\n');
+putchar('\n');
 return (0);
 }
