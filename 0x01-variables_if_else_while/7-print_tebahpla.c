@@ -12,5 +12,4 @@ putchar(ch);
 }
 printf("\n");
 return (0);
-}
-~   
+} 
