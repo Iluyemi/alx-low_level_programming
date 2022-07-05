@@ -7,6 +7,8 @@
  */
 int main(void)
 {
-write(2, "_putchar", 59);
-return (1);
+char fi;
+fi = _putchar;
+_putchar(*fi);
+return (0);
 }
