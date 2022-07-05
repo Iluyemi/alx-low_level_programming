@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-char fi;
-fi = _putchar;
+char *fi;
+*fi = _putchar;
 _putchar(*fi);
 return (0);
 }
