@@ -4,8 +4,8 @@
  * main - the main function
  * Return: 0 return value if successful
  */
-char main(void)
+int main(void)
 {
-_putchar('_putchar');
+_putchar("_putchar");
 return (0);
 }
