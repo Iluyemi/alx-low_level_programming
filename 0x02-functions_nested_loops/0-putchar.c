@@ -1,12 +1,19 @@
 #include<stdio.h>
 #include "main.h"
-#define _putchar
 /**
  * main - the main function
  * Return: 0 return value if successful
  */
 int main(void)
 {
-_putchar ("_putchar");
-return (1);
+_putchar ('_');
+_putchar ('p');
+_putchar ('u');
+_putchar ('t');
+_putchar ('c');
+_putchar ('h');
+_putchar ('a');
+_putchar ('r');
+_putchar ('\n');
+return (0);
 }
