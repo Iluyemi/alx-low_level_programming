@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "main.h"
-#include <unistd.h>
+#define _putchar
 /**
  * main - the main function
  * Return: 0 return value if successful
