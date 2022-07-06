@@ -12,12 +12,3 @@ _putchar(alpha);
 }
 return;
 }
-/**
- * main - the main function
- * Return: 0 return value
- */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
