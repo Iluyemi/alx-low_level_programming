@@ -1,4 +1,3 @@
-include<stdio.h>
 #include "main.h"
 /**
  * print_alphabet - print letters
@@ -11,7 +10,7 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 _putchar("%c", alpha);
 }
-return (0);
+return;
 }
 /**
  * main - the main function
