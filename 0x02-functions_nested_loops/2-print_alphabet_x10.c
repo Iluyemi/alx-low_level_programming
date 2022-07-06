@@ -5,11 +5,11 @@
  */
 void print_alphabetx10(void)
 {
-char alpha;
+int t;
 int i;
 for (i = 0; i <= 9; i++)
 {
-for (alpha = 'a'; alpha <= 'z'; alpha++)
+for (t = 'a'; t <= 'z'; t++)
 {
 _putchar(alpha);
 }
