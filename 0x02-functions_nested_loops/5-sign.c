@@ -1,5 +1,6 @@
 #include "main.h"
-/**print_sign - prints sign
+/**
+ * print_sign - prints sign
  * @r: a character argument
  *Returns: 1 if r is greater than zero
  *Returns: -1 is r is less than zero
