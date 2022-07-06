@@ -1,17 +1,17 @@
 #include "main.h"
 /**
  *print_sign - prints sign
- * @r: a character argument
+ * @n: a character argument
  * Returns: 0 if succesfull
  */
-int print_sign(int r)
+int print_sign(int n)
 {
-if  (r > 0)
+if  (n > 0)
 {
 _putchar('+');
 return (1);
 }
-else if (r < 0)
+else if (n < 0)
 {
 _putchar('-');
 return (-1);
