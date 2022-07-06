@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * print_alphabet - print letters
- * Return: 0 return value if successful
  */
-void print_alphabetx10(void)
+void print_alphabet_x10(void)
 {
 int t;
 int i;
