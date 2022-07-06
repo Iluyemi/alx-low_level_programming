@@ -2,7 +2,6 @@
 /**
  *print_sign - prints sign
  * @r: a character argument
- *Returns: 1 if r is greater than zero
  * Returns: 0 if succesfull
  */
 int print_sign(int r)
