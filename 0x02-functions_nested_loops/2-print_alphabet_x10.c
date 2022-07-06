@@ -11,7 +11,7 @@ for (i = 0; i <= 9; i++)
 {
 for (t = 'a'; t <= 'z'; t++)
 {
-_putchar(alpha);
+_putchar(t);
 }
 _putchar('\n');
 }
