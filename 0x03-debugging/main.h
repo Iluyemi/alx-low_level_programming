@@ -1,4 +1,4 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main.h
+#define main.h
 void positive_or_negative(int i);
 #endif
