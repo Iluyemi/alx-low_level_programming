@@ -4,7 +4,7 @@
  * Return: 1 if c is digit otherwise 0
  * @c: a character
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 if (c >= 0 && c <= 9)
 {
