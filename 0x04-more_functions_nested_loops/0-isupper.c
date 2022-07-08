@@ -14,11 +14,11 @@ j = 0;
 
 if (c >= 'A' || c <= 'Z')
 {
-_putchar(i + '0');
+_putchar((i % 10) + '0');
 }
 else
 {
-_putchar(j + '0');
+_putchar((j % 10) + '0');
 }
 return;
 }
