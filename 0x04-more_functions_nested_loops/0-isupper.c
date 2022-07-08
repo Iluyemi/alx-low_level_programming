@@ -7,14 +7,18 @@
 int _isupper(int c)
 {
 int c;
+int i;
+int j;
+i = 1;
+j = 0;
 
 if (c >= 'A' || c <= 'Z')
 {
-_putchar('1');
+_putchar(i + '0');
 }
 else
 {
-_putchar('0');
+_putchar(j + '0');
 }
 return;
 }
