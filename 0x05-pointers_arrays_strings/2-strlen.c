@@ -1,11 +1,13 @@
 #include "main.h"
+#include <string.h>
 /**
  * reset_to_98 - Updates the value of an int
  * Return: if successful
  * @n: a pointer
  */
-void reset_to_98(ch)
+int _strlen(char *s);
 {
-*n = 98;
-return;
+int len;
+len = strlen(*s);
+return (len);
 }
