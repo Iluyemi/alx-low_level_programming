@@ -5,7 +5,7 @@
  * Return: if successful
  * @n: a pointer
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 int len;
 len = strlen(*s);
