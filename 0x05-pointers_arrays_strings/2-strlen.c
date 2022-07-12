@@ -1,9 +1,9 @@
 #include "main.h"
 #include <string.h>
 /**
- * reset_to_98 - Updates the value of an int
+ * _strlen - string length of the string
  * Return: if successful
- * @n: a pointer
+ * @s: a pointer
  */
 int _strlen(char *s)
 {
