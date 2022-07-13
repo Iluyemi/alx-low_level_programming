@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 /**
  * reset_to_98 - Updates the value of an int
  * Return: if successful
