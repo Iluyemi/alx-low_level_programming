@@ -16,12 +16,12 @@ len = strlen(str);
 j = len / 2;
 for (j = len / 2; j <= len; i++)
 {
-if (len % 2 = 1)
+if (len % 2 == 1)
 {
 n = (len - 1) / 2;
 printf("%c", str[n]);
 }
-printf("%c", str[j];
+printf("%c", str[j]);
 }
 printf("\n");
 return;
