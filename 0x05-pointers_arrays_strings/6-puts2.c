@@ -1,21 +1,16 @@
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
- * print_rev - print reverse of a string
- * Return: if successful
- * @s: an array
+ * puts2 - print series of numbers
+ * @str: a character
  */
-void print_rev(char *str)
+void puts2(char *str)
 {
-int len;
-int i;
+int i, len;
 len = strlen(str);
-for (i = len - 1; i >= 0; i--)
+for (i = 0; i < len; i += 2)
 {
-printf("%c", str[i]);
+_putchar(str[i]);
 }
-printf("\n");
-return;
+_putchar('\n');
 }
-
