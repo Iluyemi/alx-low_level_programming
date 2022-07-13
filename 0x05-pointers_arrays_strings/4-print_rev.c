@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * print_rev - print reverse of a string 
+ * print_rev - print reverse of a string
  * Return: if successful
  * @s: an array
  */
