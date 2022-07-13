@@ -13,7 +13,7 @@ int i;
 len = strlen(s);
 for (i = len; i <= len; i--)
 {
-printf("%c", s[0]);
+printf("%c", s[i]);
 }
 return;
 }
