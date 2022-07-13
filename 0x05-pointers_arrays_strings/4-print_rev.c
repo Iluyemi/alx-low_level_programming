@@ -12,7 +12,7 @@ len = strlen(s);
 int i;
 for (i = len; i <= len; i--)
 {
-write(1, "%C, s[i]", 1);
+_putchar(s[i]);
 }
 return;
 }

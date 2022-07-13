@@ -8,9 +8,10 @@ int main(void)
 
     st = "Mistubishi";
     len = strlen(st);
+    char s = 'h';
     for (i = len; i < len; i--)
 	   {
-		   printf("%c", st[i]);
+fwrite(1, s, 1);
 	   }
     return (0);
 }
