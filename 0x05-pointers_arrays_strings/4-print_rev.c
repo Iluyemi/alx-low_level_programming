@@ -11,9 +11,12 @@ void print_rev(char *s)
 int len;
 int i;
 len = strlen(s);
+while (s[n] != '\0')
+{
 for (i = len; i <= len && i >= 0; i--)
 {
 printf("%c", s[i]);
+}
 }
 printf("\n");
 return;
