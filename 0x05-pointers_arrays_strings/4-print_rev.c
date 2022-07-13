@@ -12,7 +12,7 @@ int len;
 int i;
 len = strlen(s);
 for (i = len; i <= len && i >= 0; i--)
-if(s[i] = '\0')
+if((s[i] = '\0'))
 {
 break;
 }
