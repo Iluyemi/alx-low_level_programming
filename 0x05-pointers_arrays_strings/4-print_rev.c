@@ -11,8 +11,8 @@ void print_rev(char *s)
 int len;
 int i;
 len = 0;
-while (s[n] != '\0')
-n++;
+while (s[i] != '\0')
+i++;
 for (i = len - 1; i >= 0; i--)
 {
 printf("%c", s[i]);
