@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * reset_to_98 - Updates the value of an int
+ * print_rev - print reverse of a string 
  * Return: if successful
- * @n: a pointer
+ * @s: an array
  */
 void print_rev(char *s)
 {
