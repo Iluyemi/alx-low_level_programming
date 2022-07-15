@@ -13,7 +13,7 @@ int f;
 f = n;
 while (f > 0)
 {
-if (f != n - 2)
+if (f != n - 1)
 {
 printf(", ");
 }
@@ -22,4 +22,4 @@ f--;
 }
 printf("\n");
 return;
-}
+i}
