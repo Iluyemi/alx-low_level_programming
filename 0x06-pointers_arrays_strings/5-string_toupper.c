@@ -1,14 +1,17 @@
 #include "main.h"
-#include <string.h>
 /**
- * _strncpy - print a copy of character
- * @dest: first param
- * @src: second param
- * @n: 3rd param
- * Return: string
+ * string_toupper - print character
+ * @x: a character
+ * Return: a character
  */
-char *string_toupper(char *)
+char *string_toupper(char *x)
 {
-if :wq
-return (dest);
+int i = 0;
+while (x[i])
+{
+if (x[i] >= 97 && x[i] <= 122)
+x[i] = x[i] - 32;
+i++;
+}
+return (x);
 }
