@@ -10,9 +10,16 @@
 void reverse_array(int *a, int n)
 {
 int f;
-for (f = n - 1; f <= n; f--)
+f = n;
+while (f > 0)
 {
-printf("%d", a[f]);	
+if (i != n - 2)
+{
+printf(", ");
 }
+printf("%d", a[i]);
+f--;
+}
+printf("\n");
 return;
 }
