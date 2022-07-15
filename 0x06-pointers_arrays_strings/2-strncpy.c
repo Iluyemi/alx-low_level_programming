@@ -1,14 +1,14 @@
-#include <string.h>
-#include <string.h>
 #include "main.h"
+#include <string.h>
 /**
- * _strncpy - a function
- * @dest: character
- * @src: a characte
- * @n : byte
- * Return: if executed properly
+ * _strncpy - print a copy of character
+ * @dest: first param
+ * @src: second param
+ * @n: 3rd param
+ * Return: string
  */
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
-return (strncpy(dest, src, n));
+strncpy(dest, src, n);
+return (dest);
 }
