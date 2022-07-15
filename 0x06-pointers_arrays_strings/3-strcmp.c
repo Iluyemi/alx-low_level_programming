@@ -6,7 +6,7 @@
  * @s2: second param
  * Return: string
  */
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
 int n;
 n = strcmp(s1, s2);
