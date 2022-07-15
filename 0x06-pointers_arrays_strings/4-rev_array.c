@@ -11,9 +11,9 @@ void reverse_array(int *a, int n)
 {
 int f;
 f = n;
-while (f > 0)
+while (f >= 0)
 {
-if (f != n)
+if (f != 0 && f != n) 
 {
 printf(", ");
 }
