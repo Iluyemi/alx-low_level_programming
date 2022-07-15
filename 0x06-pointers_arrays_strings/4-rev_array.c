@@ -13,11 +13,11 @@ int f;
 f = n;
 while (f > 0)
 {
-if (i != n - 2)
+if (f != n - 2)
 {
 printf(", ");
 }
-printf("%d", a[i]);
+printf("%d", a[f]);
 f--;
 }
 printf("\n");
