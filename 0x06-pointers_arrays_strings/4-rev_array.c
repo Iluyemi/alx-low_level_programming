@@ -9,12 +9,11 @@
  */
 void reverse_array(int *a, int n)
 {
-int f;
-f = n;
-for (f = n; f <= n && f >= 0; f--)
+int i;
+for (i = n; i <= n && i >= 0; i--)
 {
-printf("%d", a[f]);
-if (f != 0)
+printf("%d", a[i]);
+if (i != 0)
 {
 printf(", ");
 }
