@@ -4,8 +4,11 @@ int main(void)
 {
 char *c;
 char a = 'l';
+int length = 0;
 c = "Hello"; 
-char *f;
-f = strchr(c, a);
-printf ("%s", f);
+while(c[length])
+{
+length++;
+}
+printf("%i", length);
 }
