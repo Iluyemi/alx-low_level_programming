@@ -8,8 +8,8 @@
  */
 char *_strchr(char *s, char c)
 {
-char *c;
-c = strchr(s, c);
-return (c);
+char *i;
+i = strchr(s, c);
+return (i);
 }
 
