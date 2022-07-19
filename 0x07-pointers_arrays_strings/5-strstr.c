@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strstr - My prototype function
  * @haystack: Comparison A
@@ -8,7 +7,24 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-char *n;
-n = strstr(haystack, needle);
-return (n);
+int a, b;
+a = 0;
+b = 0;
+while (haystack[a])
+{
+	while (needle[b])
+	{
+		if (haystack[a + b] != needle[b])
+		{
+			break;
+		}
+		b++;
+	}
+	if (needle[b] == '\0')
+	{
+		return (haystack + a);
+	}
+	a++;
+}
+return ('\0');
 }

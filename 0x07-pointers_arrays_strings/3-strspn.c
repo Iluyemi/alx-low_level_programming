@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strspn - My prototype function
  * @s: Initial segment to be returned from
@@ -8,8 +7,22 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int a;
-a = strspn(s, accept);
-return (a);
+unsigned int a, b, t;
+a = 0;
+t = 0;
+while (accept[a])
+{
+b = 0;
+while (s[b] != 32)
+{
+if (accept[a] == s[b])
+{
+t++;
+}
+b++;
+}
+a++;
+}
+return (t);
 }
 
