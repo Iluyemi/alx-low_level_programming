@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _memset - My prototype function
  * @n: Number of bytes
