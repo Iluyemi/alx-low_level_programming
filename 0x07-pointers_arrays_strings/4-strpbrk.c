@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strpbrk - My prototype function
  * @accept: Constant byte
@@ -8,7 +7,20 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-char *n;
-n = strpbrk(s, accept);
-return (n);
+int a = 0, b;
+while (s[a])
+{
+	b = 0;
+	while (accept[b])
+	{
+		if (s[a] == accept[b])
+		{
+			s += a;
+			return (s);
+		}
+		b++;
+	}
+	a++;
+}
+return ('\0');
 }

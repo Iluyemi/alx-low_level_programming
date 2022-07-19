@@ -11,6 +11,5 @@ int _putchar(char c);
 void set_string(char **s, char *
 =======
 void set_string(char **s, char *to);
-
 #endif
 >>>>>>> 06865f3df6d9c4a9c1a2e81b9c9ab030543fd063
