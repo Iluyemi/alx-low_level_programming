@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _memcpy - My prototype function
  * @n: Number of bytes
@@ -10,6 +9,9 @@
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 int i;
+char *dest;
+char *src;
+unsigned int n;
 for (i = 0; i < n; i++)
 {
 dest[i] = src[i];
