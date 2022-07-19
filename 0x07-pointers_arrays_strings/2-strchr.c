@@ -8,8 +8,25 @@
  */
 char *_strchr(char *s, char c)
 {
-char *i;
-i = strchr(s, c);
-return (i);
+int i;
+int f;
+int length;
+char *n;
+i = 0;
+while (s[i] = c)
+{
+f = i;
+}
+length = 0;
+while (s[length])
+{
+length ++;
+}
+
+for (i = f; i < length; i++)
+{
+s[i] = n[i];
+}
+return (n);
 }
 
