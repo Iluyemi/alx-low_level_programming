@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
+/**
+ * _pow_recursion - Prototyped function
+ * @x: input integer
+ * @y: power
+ * Return: if successful
+ */
 int _pow_recursion(int x, int y)
 {
 int n;
@@ -19,9 +24,5 @@ int n;
 	n = x * _pow_recursion(x, (y - 1));
 	return (n);
 }
-int main(void)
-{
-	printf ("%d", _pow_recursion(-5, 3));
-	return (0);
-}
+
 
