@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <string.h>
+int print(int nb)
+{
+    if (nb < 0) 
+    {
+        return (0);
+    }
+    printf("%d", nb + print(nb - 1));
+    nb --;
+    return (nb);
+}
+
 int main(void)
 {
-char *c;
-char a = 'l';
-int length = 0;
-c = "Hello"; 
-while(c[length])
-{
-length++;
-}
-printf("%i", length);
+    print(4);
+    return (0);
 }
