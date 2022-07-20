@@ -12,6 +12,5 @@ if (*s != '\0')
 _strlen_recursion(s + 1);
 }
 n++; 
-n
 return (n);
 }
