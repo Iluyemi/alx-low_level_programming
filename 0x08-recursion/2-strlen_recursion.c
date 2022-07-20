@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- *
+ * _strlen_recursion - function
+ * @s: input array
  * Return: Always 0.
  */
 int n = 0;
@@ -14,9 +14,4 @@ int _strlen_recursion(char *s)
 	n++;
 	 }
 	return (n);
-}
-int main(void)
-{
-	printf("%i", _strlen_recursion("h"));
-			return(0);
 }
