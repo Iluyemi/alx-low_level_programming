@@ -9,11 +9,11 @@
 
 int _sqrt(int n, int x)
 {
-        if (n > x / 2)
-                return (-1);
-        else if (n * n == x)
-                return (n);
-        return (_sqrt(n + 1, x));
+if (n > x / 2)
+return (-1);
+else if (n * n == x)
+return (n);
+return (_sqrt(n + 1, x));
 }
 /**
 * _sqrt_recursion - returns the natural square root of a number
