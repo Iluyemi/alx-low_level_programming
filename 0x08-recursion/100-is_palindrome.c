@@ -10,8 +10,7 @@ int  is_palindrome(char *s)
 char *r;
 if (*s != '\0')
 {
-	is_palindrome(s + 1);
-	*r = *s;
+	*r = is_palindrome(s + 1);
 }
 if (s[0] == r[0] && s[1] == r[1])
 {
