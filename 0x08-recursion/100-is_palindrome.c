@@ -11,7 +11,7 @@ char *r;
 if (*s != '\0')
 {
 	is_palindrome(s + 1);
-	r = s;
+	*r = *s;
 }
 if (s[0] == r[0] && s[1] == r[1])
 {
