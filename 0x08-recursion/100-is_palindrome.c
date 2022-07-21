@@ -7,14 +7,11 @@
  */
 int  is_palindrome(char *s)
 {
-int i;
-int n;
-int j = 0;
 char *r;
 if (*s != '\0')
 {
 	is_palindrome(s + 1);
-	r[j] = s[n];
+	r = s;
 }
 if (s[0] == r[0] && s[1] == r[1])
 {
