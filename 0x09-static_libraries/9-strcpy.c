@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * _strcpy - prototype function
  * @dest: character
  * @src: a character
  * Return: if executed properly

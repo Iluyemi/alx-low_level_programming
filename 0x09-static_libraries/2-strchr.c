@@ -20,7 +20,7 @@ f = i;
 length = 0;
 while (s[length])
 {
-length ++;
+length++;
 }
 
 for (i = f; i < length; i++)
