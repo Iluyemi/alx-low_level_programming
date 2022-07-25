@@ -17,7 +17,7 @@ if (str == NULL)
 while (str[n])
 {
 	n++;
-{
+}
 ar = (char *)malloc(n * sizeof(char));
 if (ar == NULL)
 {
@@ -30,4 +30,3 @@ for (i = 0; i <= n; i++)
 return (ar);
 free(ar);
 }
-
