@@ -21,9 +21,9 @@ while (str[n])
 ar = (char *)malloc(n * sizeof(char));
 if (ar == NULL)
 {
-        return (NULL);
+return (NULL);
 }
-for (i = 0; i <= n; i++)
+for (i = 0; i < n; i++)
 {
 	ar[i] = str[i];
 }
