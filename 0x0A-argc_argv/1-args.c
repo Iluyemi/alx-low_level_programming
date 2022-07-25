@@ -6,7 +6,7 @@
  * @argv: argument vector
  * Return: if successful, and 1 if not
  */
-int main(int argc, char __attribute__((__unused__)) *argv[])
+int main(int argc, char (void) *argv[])
 {
 int i = 1;
 argc = argc - i;
