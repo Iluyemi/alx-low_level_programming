@@ -17,8 +17,12 @@ if (str == NULL)
 while (str[n])
 {
 	n++;
-}
+{
 ar = (char *)malloc(n * sizeof(char));
+if (ar == NULL)
+{
+        return (NULL);
+}
 for (i = 0; i <= n; i++)
 {
 	ar[i] = str[i];
