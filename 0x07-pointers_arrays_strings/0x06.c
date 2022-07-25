@@ -67,7 +67,11 @@
 
     
 
+<<<<<<< HEAD
+  <meta name="request-id" content="63D3:1F01:14D7C3:168432:62D6F641" data-pjax-transient="true"/><meta name="html-safe-nonce" content="632f56f959566560cff6f541249431a5ef2e54227366f65b9a2c7fa695a568e4" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI2M0QzOjFGMDE6MTREN0MzOjE2ODQzMjo2MkQ2RjY0MSIsInZpc2l0b3JfaWQiOiI0OTA3NzUyNDUyMzk5NzU2ODY1IiwicmVnaW9uX2VkZ2UiOiJmcmEiLCJyZWdpb25fcmVuZGVyIjoiZnJhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="4e1afc414c15d7da78385705796685b061957bfa58870281b93671517c7515a7" data-pjax-transient="true"/>
+=======
   <meta name="request-id" content="8C3E:524C:31E55:5B15C:62D6F84E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="ec7cebb7ca8817e989c42217900205e2b44356d61e14546ee34414dcff96d4a5" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI4QzNFOjUyNEM6MzFFNTU6NUIxNUM6NjJENkY4NEUiLCJ2aXNpdG9yX2lkIjoiNDg5MjY4MDMxNjk0MTQzMjkxMCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="d2d42069c161e1564934bfeef0bc4bc1e6e91a67318d5a6311f49151672a9632" data-pjax-transient="true"/>
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
 
     <meta name="hovercard-subject-tag" content="repository:72145807" data-pjax-transient>
 
@@ -444,7 +448,11 @@
           spellcheck="false"
           autocomplete="off"
         >
+<<<<<<< HEAD
+        <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="pWPexQmGgElywky3ki4vo0g8bXd9Jg5nJ9TaunGVoe12422JBJwL/BJYGYy/kWhVhXBSSAFPBegL1H+v+dVVXA==" />
+=======
         <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="HXdfFlzkZOD7pN03dNPiiloRuYnK3av66RIpf1GvLaoQpJNq2vgpJ4qRIjueSZgGMQre8wi49VHmYumemB59vw==" />
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -1311,8 +1319,12 @@
     
 
 
+<<<<<<< HEAD
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/holbertonschool/0x06.c/tree/8582d15690a5a4142ce23718b3b10780ca189bc7">Permalink</a>
+=======
   <include-fragment src="/holbertonschool/0x06.c/file-list/master">
       <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/holbertonschool/0x06.c/tree/8582d15690a5a4142ce23718b3b10780ca189bc7">Permalink</a>
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
 
   <div data-view-component="true" class="include-fragment-error flash flash-error flash-full py-2">
   <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
@@ -1344,11 +1356,21 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
+<<<<<<< HEAD
+              <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+                    <a data-pjax="true" title="README updated" class="Link--secondary" href="/holbertonschool/0x06.c/commit/8582d15690a5a4142ce23718b3b10780ca189bc7">README updated</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="color-fg-muted text-right" style="width:100px;">
+              <time-ago datetime="2016-10-27T20:34:54Z" data-view-component="true" class="no-wrap">Oct 27, 2016</time-ago>
+=======
               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
           </div>
 
           <div role="gridcell" class="color-fg-muted text-right" style="width:100px;">
               <div class="Skeleton Skeleton--text">&nbsp;</div>
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
           </div>
 
         </div>
@@ -1364,11 +1386,21 @@
           </div>
 
           <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3" >
+<<<<<<< HEAD
+              <span class="css-truncate css-truncate-target d-block width-fit markdown-title">
+                    <a data-pjax="true" title="New crackme" class="Link--secondary" href="/holbertonschool/0x06.c/commit/57027fac01bc6d2c0705100544642cfda4617504">New crackme</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="color-fg-muted text-right" style="width:100px;">
+              <time-ago datetime="2016-10-27T20:31:39Z" data-view-component="true" class="no-wrap">Oct 27, 2016</time-ago>
+=======
               <div class="Skeleton Skeleton--text col-7">&nbsp;</div>
           </div>
 
           <div role="gridcell" class="color-fg-muted text-right" style="width:100px;">
               <div class="Skeleton Skeleton--text">&nbsp;</div>
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
           </div>
 
         </div>
@@ -1379,7 +1411,11 @@
 </button>    </div>
   </div>
 
+<<<<<<< HEAD
+
+=======
 </include-fragment>
+>>>>>>> 891d296f5bd106d6f392cb40ddeea1d6ca1957b2
 
 
 </div>
