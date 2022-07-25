@@ -9,6 +9,8 @@
 char *str_concat(char *s1, char *s2)
 {
 	int i, j;
+	char *ar;
+	int n;
 
 	while (s1[i] && s2[j])
 	{
