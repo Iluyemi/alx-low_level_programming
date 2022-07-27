@@ -32,6 +32,6 @@ for (n = 0; n < (i + j); n++)
 	{
 		ar[n] = s2[n];
 	}
-	return (ar);
 }
+	return (ar);
 }
