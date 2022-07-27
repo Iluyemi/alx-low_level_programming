@@ -1,15 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
-* main - prints multiplication of two numbers
+* main - prints program name
 *@argc: number of arguments
 *@argv: array of arguments
-*Return: returns 0
+*Return: 0
 */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	int i = 0;
+	printf("%s\n", argv[0]);
 
-	printf("%s", argv[0]);
-	printf("\n");
+	return (0);
 }
