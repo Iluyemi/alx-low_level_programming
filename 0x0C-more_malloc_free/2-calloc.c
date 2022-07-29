@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * _calloc - prototype function
  * @nmemb: number for elements for the array
