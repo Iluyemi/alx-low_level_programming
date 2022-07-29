@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * string_nconcat - prototype function
  * @s1: first string
@@ -31,7 +30,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s1 = " ";
 	if (s2 == NULL)
 		s2 = " ";
-	for (a = 0; a < (i + n); a++)
+	for (a = 0; a <= (i + n); a++)
 	{
 	s[a] = s1[a];
 	if (a >= i)
@@ -40,7 +39,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	b++;
 	}
 	}
-	s[i + n] = '\0';
 	if (s == NULL)
 	{
 		return (NULL);
