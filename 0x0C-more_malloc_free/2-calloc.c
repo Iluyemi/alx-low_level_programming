@@ -1,29 +1,26 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _calloc - prototype function
- * @nmemb: number for elements for the array
- * @size: byte size
- * Return: s if successful
- */
+* _calloc - allocate memory using malloc and initialize it to zero
+*@nmemb: number of elements
+*@size: size of the memory block to be allocated
+*
+*Return: poiner to the address of the memory block
+*/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	char *array;
+	char *block;
 	unsigned int i;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
-	array = malloc(nmemb * size);
-	if (array != NULL)
+	block = malloc(nmemb * size);
+	if (block != NULL)
 	{
-	for (i = 0; i < nmemb; i++)
-	{
-	array[i] = 0;
-	}
-	return (array);
+		for (i = 0; i < (nmemb * size); i++)
+			block[i] = 0;
+		return (block);
 	}
 	else
-	{
 		return (NULL);
-	}
 }
