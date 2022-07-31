@@ -1,3 +1,4 @@
+![img](https://play-lh.googleusercontent.com/RLO14DKG8-tknas91100ht0mmVH9jVqqgoA0HIr1O_zMFATO-eF3tYT5MIC7yafvVH8=w240-h480-rw)
 > # 0x00. C - Hello, World
 ## Resources
 **Read or watch:**
