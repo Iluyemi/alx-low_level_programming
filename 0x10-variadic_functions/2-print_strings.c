@@ -23,11 +23,9 @@ if (j == NULL)
 }
 else
 {
-printf("%s", va_arg(ap, char *));
+printf("%s", j);
 if (separator != NULL && i != n - 1)
-{
-printf("%s ", separator);
-}
+printf("%s", separator);
 }
 }
 printf("\n");
