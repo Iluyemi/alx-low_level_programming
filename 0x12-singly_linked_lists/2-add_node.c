@@ -1,32 +1,29 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <string.h>
 
 /**
- * *add_node - adds a node to a linked list head
- * @head: linked list head
- * @str: string element of the linked list
- * Return: number of elements
+ * add_node - adds a node at the beginning of a list_t list
+ * @head: start of a linked list
+ * @str: string inputs in the linked list
+ *
+ * Return: address of the head
  */
-
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *new;
-	int n;
+	size_t charCount;
 
-	new = (list_t *) malloc(sizeof(list_t));
-
-	if (new == NULL || str == NULL)
-	{
-		free(new);
+	new = malloc(sizeof(list_t));
+	if (new == NULL)
 		return (NULL);
-	}
-	else
-	{
+
 	new->str = strdup(str);
-	new->len = strlen(str);
+
+	for (charCount = 0; str[charCount]; charCount++)
+		;
+
+	new->len = charCount;
+	new->next = *head;
 	*head = new;
-	}
+
 	return (*head);
-	
 }
