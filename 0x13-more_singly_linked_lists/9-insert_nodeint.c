@@ -7,7 +7,6 @@
  * @head: head node of the linked list
  * @idx: the index to insert the node
  * @n: the number to insert
- *
  * Return: return the head of list after insertion
  */
 
