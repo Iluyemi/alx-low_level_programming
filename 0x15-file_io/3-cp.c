@@ -15,13 +15,18 @@ int copy(char *file_from, char *file_to)
 	ssize_t W, R = 1;
 	char *buf;
 
-	if (!file_from)
+	fd1 = open(file_from, O_RDONLY);
+	if (fd1 == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+		dprintf(2, "Error: Can't read from file %s\n", file_from);
 		exit(98);
 	}
-	fd1 = open(file_from, O_RDONLY);
 	fd2 = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	if (fd2 == -1)
+	{
+		dprintf(2, "Error: Can't write to %s\n", file_to);
+		exit(99);
+	}
 	while (R != 0)
 	{
 		buf  = malloc(n * sizeof(char));
@@ -53,7 +58,7 @@ int main(int argc, char **argv)
 {
 	if (argc != 3)
 	{
-		dprintf(2, "cp file_from file_to\n");
+		dprintf(2, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	copy(argv[1], argv[2]);
