@@ -2,6 +2,12 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdio.h>
+/**
+ * copy - function
+ * @file_from: input 1
+ * @file_to: input 2
+ * Return: 0
+ */
 int copy(char *file_from, char *file_to)
 {
 	int fd1, fd2, i, j;
@@ -12,7 +18,7 @@ int copy(char *file_from, char *file_to)
 	if (!file_from)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-		exit (98);
+		exit(98);
 	}
 	fd1 = open(file_from, O_RDONLY);
 	fd2 = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, 0664);
@@ -24,26 +30,32 @@ int copy(char *file_from, char *file_to)
 		if (W == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-			exit (99);
+			exit(99);
 		}
 	}
-	i = close (fd1);
+	i = close(fd1);
 	if (i == -1)
-		write(2, "Error: can't close fd %i\n", fd1);			
-	j = close (fd2);
+		write(2, "Error: can't close fd %i\n", fd1);
+	j = close(fd2);
 	if (j == -1)
 		write(2, "Error: Can't close fd %i\n", fd2);
 	return (0);
 
 }
+/**
+ * main - main function
+ * @argc: Number of argument
+ * @argv: input array
+ * Return: 0
+ */
 
 int main(int argc, char **argv)
 {
-	      if (argc != 3)
-	      {
+	if (argc != 3)
+	{
 		dprintf(2, "cp file_from file_to\n");
 		exit(97);
-	      }
-	      copy(argv[1], argv[2]);
-	      return (0);
+	}
+	copy(argv[1], argv[2]);
+	return (0);
 }
