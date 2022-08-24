@@ -1,8 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
-
-
+#include <stdio.h>
 int copy(char *file_from, char *file_to)
 {
 	int fd1, fd2, i, j;
@@ -19,13 +18,14 @@ int copy(char *file_from, char *file_to)
 	fd2 = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	while (R != 0)
 	{
-	buff  = malloc(n * sizeof(char));
-	R = read(fd1, buf, n);
-	W = write(fd2, buf, R);
-	if (W == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-		exit (99);
+		buf  = malloc(n * sizeof(char));
+		R = read(fd1, buf, n);
+		W = write(fd2, buf, R);
+		if (W == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
+			exit (99);
+		}
 	}
 	i = close (fd1);
 	if (i == -1)
@@ -37,15 +37,13 @@ int copy(char *file_from, char *file_to)
 
 }
 
-int main(int argc, char argv[])
+int main(int argc, char **argv)
 {
-	   int res;
-
-	       if (ac != 3)
-	       {
+	      if (argc != 3)
+	      {
 		dprintf(2, "cp file_from file_to\n");
 		exit(97);
-	       }
-	       res = copy(argv[1], argv[2]);
-	       return (0);
+	      }
+	      copy(argv[1], argv[2]);
+	      return (0);
 }
