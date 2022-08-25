@@ -40,10 +40,12 @@ int copy(char *file_from, char *file_to)
 	}
 	i = close(fd1);
 	if (i == -1)
-		write(2, "Error: can't close fd %i\n", fd1);
+		dprintf(STDERR_FILENO, "Error: can't close fd %i\n", fd1);
+		exit(100);
 	j = close(fd2);
 	if (j == -1)
 		write(2, "Error: Can't close fd %i\n", fd2);
+		exit(100);
 	return (0);
 
 }
