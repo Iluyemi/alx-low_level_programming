@@ -11,7 +11,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hash_table_t *new;
 
 	link = malloc(size * sizeof(hash_node_t *));
-	if (link == NULL)
+	if (link == NULL && size == NULL)
 	{
 		return (NULL);
 	}
