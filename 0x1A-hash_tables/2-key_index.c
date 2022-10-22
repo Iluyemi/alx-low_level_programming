@@ -9,9 +9,15 @@
 
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
-	hash_node_t *new;
-	new->key =
-	new->value = 
-	new ->next = NULL;
+	unsigned long int sum = 0, index;
+	int n = 0;
 
-	hash_table_t
+	while(key[n] != '\0')
+	{
+		sum += (unsigned long int)key[n];
+		n++;
+	}
+	printf("%li\n", sum);
+	index = sum % size;
+	return (index);
+}
