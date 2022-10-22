@@ -17,7 +17,6 @@ unsigned long int key_index(const unsigned char *key, unsigned long int size)
 		sum += (unsigned long int)key[n];
 		n++;
 	}
-	printf("%li\n", sum);
 	index = sum % size;
 	return (index);
 }
