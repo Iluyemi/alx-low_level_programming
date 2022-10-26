@@ -14,7 +14,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *old, *Value_duplicate;
 	hash_node_t *new;
 
-	if (key == NULL || key[0] == '\0'|| ht == NULL)
+	if (key == NULL || key[0] == '\0' || ht == NULL)
 	{
 		return (0);
 	}
