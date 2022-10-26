@@ -1,5 +1,10 @@
 #include "hash_tables.h"
-
+/**
+ * hash_table_get - function name
+ * @ht: input A
+ * @key: input B
+ * Return: string return
+ */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
 	unsigned long int index;

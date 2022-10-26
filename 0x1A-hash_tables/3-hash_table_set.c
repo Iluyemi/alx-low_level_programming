@@ -1,6 +1,12 @@
 #include "hash_tables.h"
 
-
+/**
+ * hash_table_set - function
+ * @ht: input a
+ * @key: input b
+ * @value: input c
+ * Return: 1 if successfull
+ */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
