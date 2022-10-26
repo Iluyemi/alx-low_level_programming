@@ -13,7 +13,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	index = key_index((unsigned char *)key, ht->size);
 	hi = NULL;
-	for(new = ht->array[index]; new != NULL; new = new->next)
+	for (new = ht->array[index]; new != NULL; new = new->next)
 	{
 		if (strcmp(new->key, key) == 0)
 		{
