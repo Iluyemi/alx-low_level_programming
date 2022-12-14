@@ -1,23 +1,25 @@
-#VARIABLES
 CC = gcc
-SRC = main.c school.c
-OBJ = ${SRC:%.c=%.o}
+SRC = school.c main.c
+OBJ = $(SRC:%.c=%.o)
 NAME = school
 RM = rm -f
-#RULES
-all: ${OBJ} 
-	${CC} ${OBJ} -o ${NAME}
- 
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
 %.o: %.c
-	${CC} -c -o $<  $@ 
+	$(CC) -c -o $@ $<
 
 .PHONY: clean oclean fclean re
 clean:
-	${RM} *~
-oclean: 
-	${RM} ${OBJ}
-fclean: 
-	${RM} *~ ${OBJ} ${NAME}
+	$(RM) *~
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean:
+	$(RM) *~ $(OBJ) $(NAME)
+
 re:
-	${RM} ${OBJ} ${NAME}
-	${CC} -c ${SRC}
+	$(RM) $(OBJ) $(NAME)
+	$(CC) -c $(SRC)
