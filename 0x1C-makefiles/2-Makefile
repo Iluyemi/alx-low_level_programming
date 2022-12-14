@@ -1,0 +1,16 @@
+#vaRIABLES
+CC = gcc
+SRC = school.c main.c 
+OBJ = ${SRC:%.c=%.o}
+NAME = school
+#RULES
+all: ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
+
+
+#converting the c files into object files
+# $@ represents the target (%.o)
+# $< represents (%.c)
+%.o: %.c
+	${CC} -c -o $@ $<
+
